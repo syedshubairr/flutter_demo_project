@@ -10,8 +10,7 @@ void main() {
       ),
       body: const Center(
           child: Image(
-        image: NetworkImage(
-            "https://www.liveakhbar.in/wp-content/uploads/2022/09/Iron-Man-4-Release-Date.jpg"),
+        image: AssetImage('assets/img_1.png'),
       )),
     ),
   ));
